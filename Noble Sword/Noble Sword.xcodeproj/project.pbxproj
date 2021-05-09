@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A211059E2647A1CE008AF0B7 /* ForestTombScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A211059D2647A1CE008AF0B7 /* ForestTombScene.sks */; };
+		A21105AD2647A639008AF0B7 /* CGRect+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */; };
+		A21106702647B7F0008AF0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */; };
+		A21106852647C953008AF0B7 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A21106802647C87D008AF0B7 /* Minecraft.ttf */; };
 		A2F684B5264791C4006DF83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684B4264791C4006DF83B /* AppDelegate.swift */; };
-		A2F684B7264791C4006DF83B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F684B6264791C4006DF83B /* art.scnassets */; };
 		A2F684B9264791C4006DF83B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684B8264791C4006DF83B /* GameViewController.swift */; };
-		A2F684BC264791C4006DF83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F684BA264791C4006DF83B /* Main.storyboard */; };
 		A2F684BE264791C5006DF83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F684BD264791C5006DF83B /* Assets.xcassets */; };
 		A2F684C9264791C5006DF83B /* Noble_SwordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684C8264791C5006DF83B /* Noble_SwordTests.swift */; };
 		A2F684D4264791C5006DF83B /* Noble_SwordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684D3264791C5006DF83B /* Noble_SwordUITests.swift */; };
@@ -34,11 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A211059D2647A1CE008AF0B7 /* ForestTombScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ForestTombScene.sks; sourceTree = "<group>"; };
+		A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Ext.swift"; sourceTree = "<group>"; };
+		A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21106802647C87D008AF0B7 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		A2F684B1264791C4006DF83B /* Noble Sword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noble Sword.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F684B4264791C4006DF83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2F684B6264791C4006DF83B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A2F684B8264791C4006DF83B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		A2F684BB264791C4006DF83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2F684BD264791C5006DF83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F684BF264791C5006DF83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F684C4264791C5006DF83B /* Noble SwordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noble SwordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A21105AB2647A60C008AF0B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A21106812647C885008AF0B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A21106802647C87D008AF0B7 /* Minecraft.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A21106892647C9C4008AF0B7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				A21106812647C885008AF0B7 /* Fonts */,
+				A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */,
+				A2F684BD264791C5006DF83B /* Assets.xcassets */,
+				A2F684BF264791C5006DF83B /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		A2F684A8264791C4006DF83B = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				A2F684B4264791C4006DF83B /* AppDelegate.swift */,
-				A2F684B6264791C4006DF83B /* art.scnassets */,
 				A2F684B8264791C4006DF83B /* GameViewController.swift */,
-				A2F684BA264791C4006DF83B /* Main.storyboard */,
-				A2F684BD264791C5006DF83B /* Assets.xcassets */,
-				A2F684BF264791C5006DF83B /* Info.plist */,
+				A211059D2647A1CE008AF0B7 /* ForestTombScene.sks */,
+				A21106892647C9C4008AF0B7 /* Misc */,
+				A21105AB2647A60C008AF0B7 /* Extensions */,
 			);
 			path = "Noble Sword";
 			sourceTree = "<group>";
@@ -228,9 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F684B7264791C4006DF83B /* art.scnassets in Resources */,
+				A21106702647B7F0008AF0B7 /* LaunchScreen.storyboard in Resources */,
 				A2F684BE264791C5006DF83B /* Assets.xcassets in Resources */,
-				A2F684BC264791C4006DF83B /* Main.storyboard in Resources */,
+				A21106852647C953008AF0B7 /* Minecraft.ttf in Resources */,
+				A211059E2647A1CE008AF0B7 /* ForestTombScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21105AD2647A639008AF0B7 /* CGRect+Ext.swift in Sources */,
 				A2F684B9264791C4006DF83B /* GameViewController.swift in Sources */,
 				A2F684B5264791C4006DF83B /* AppDelegate.swift in Sources */,
 			);
@@ -290,17 +322,6 @@
 			targetProxy = A2F684D0264791C5006DF83B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A2F684BA264791C4006DF83B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2F684BB264791C4006DF83B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2F684D6264791C5006DF83B /* Debug */ = {
@@ -354,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,7 +446,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Noble Sword/Info.plist";
+				INFOPLIST_FILE = "Noble Sword/Misc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-Sword";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,7 +465,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Noble Sword/Info.plist";
+				INFOPLIST_FILE = "Noble Sword/Misc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-Sword";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
