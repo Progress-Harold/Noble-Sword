@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A205D849265118B5007A1828 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2C19CD32651116A00DED056 /* Actions.sks */; };
+		A211059E2647A1CE008AF0B7 /* Title.sks in Resources */ = {isa = PBXBuildFile; fileRef = A211059D2647A1CE008AF0B7 /* Title.sks */; };
+		A21105AD2647A639008AF0B7 /* CGRect+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */; };
+		A21106702647B7F0008AF0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */; };
+		A21106852647C953008AF0B7 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A21106802647C87D008AF0B7 /* Minecraft.ttf */; };
+		A21106912647D411008AF0B7 /* Forest.sks in Resources */ = {isa = PBXBuildFile; fileRef = A21106902647D411008AF0B7 /* Forest.sks */; };
+		A2C19CD9265111E000DED056 /* Ex+SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C19CD8265111E000DED056 /* Ex+SKAction.swift */; };
+		A2F684B5264791C4006DF83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684B4264791C4006DF83B /* AppDelegate.swift */; };
+		A2F684B9264791C4006DF83B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684B8264791C4006DF83B /* GameViewController.swift */; };
+		A2F684BE264791C5006DF83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F684BD264791C5006DF83B /* Assets.xcassets */; };
+		A2F684C9264791C5006DF83B /* Noble_SwordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684C8264791C5006DF83B /* Noble_SwordTests.swift */; };
+		A2F684D4264791C5006DF83B /* Noble_SwordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F684D3264791C5006DF83B /* Noble_SwordUITests.swift */; };
+		A2FC80C22648448E00E93AB1 /* ForestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC80C12648448E00E93AB1 /* ForestScene.swift */; };
+		A2FC80C72648532100E93AB1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC80C62648532100E93AB1 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F684C5264791C5006DF83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F684A9264791C4006DF83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F684B0264791C4006DF83B;
+			remoteInfo = "Noble Sword";
+		};
+		A2F684D0264791C5006DF83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F684A9264791C4006DF83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F684B0264791C4006DF83B;
+			remoteInfo = "Noble Sword";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A211059D2647A1CE008AF0B7 /* Title.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Title.sks; sourceTree = "<group>"; };
+		A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Ext.swift"; sourceTree = "<group>"; };
+		A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21106802647C87D008AF0B7 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		A21106902647D411008AF0B7 /* Forest.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Forest.sks; sourceTree = "<group>"; };
+		A2C19CD32651116A00DED056 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A2C19CD8265111E000DED056 /* Ex+SKAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex+SKAction.swift"; sourceTree = "<group>"; };
+		A2F684B1264791C4006DF83B /* Noble Sword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noble Sword.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F684B4264791C4006DF83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2F684B8264791C4006DF83B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A2F684BD264791C5006DF83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F684BF264791C5006DF83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F684C4264791C5006DF83B /* Noble SwordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noble SwordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F684C8264791C5006DF83B /* Noble_SwordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noble_SwordTests.swift; sourceTree = "<group>"; };
+		A2F684CA264791C5006DF83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F684CF264791C5006DF83B /* Noble SwordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noble SwordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F684D3264791C5006DF83B /* Noble_SwordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noble_SwordUITests.swift; sourceTree = "<group>"; };
+		A2F684D5264791C5006DF83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FC80C12648448E00E93AB1 /* ForestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestScene.swift; sourceTree = "<group>"; };
+		A2FC80C62648532100E93AB1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F684AE264791C4006DF83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684C1264791C5006DF83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684CC264791C5006DF83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21105AB2647A60C008AF0B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2C19CD8265111E000DED056 /* Ex+SKAction.swift */,
+				A21105AC2647A639008AF0B7 /* CGRect+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A21106812647C885008AF0B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A21106802647C87D008AF0B7 /* Minecraft.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A21106892647C9C4008AF0B7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				A21106812647C885008AF0B7 /* Fonts */,
+				A211066F2647B7F0008AF0B7 /* LaunchScreen.storyboard */,
+				A2F684BD264791C5006DF83B /* Assets.xcassets */,
+				A2F684BF264791C5006DF83B /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		A2C19CD22651113900DED056 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A2C19CD32651116A00DED056 /* Actions.sks */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A2F684A8264791C4006DF83B = {
+			isa = PBXGroup;
+			children = (
+				A2F684B3264791C4006DF83B /* Noble Sword */,
+				A2F684C7264791C5006DF83B /* Noble SwordTests */,
+				A2F684D2264791C5006DF83B /* Noble SwordUITests */,
+				A2F684B2264791C4006DF83B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F684B2264791C4006DF83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F684B1264791C4006DF83B /* Noble Sword.app */,
+				A2F684C4264791C5006DF83B /* Noble SwordTests.xctest */,
+				A2F684CF264791C5006DF83B /* Noble SwordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F684B3264791C4006DF83B /* Noble Sword */ = {
+			isa = PBXGroup;
+			children = (
+				A2F684B4264791C4006DF83B /* AppDelegate.swift */,
+				A2F684B8264791C4006DF83B /* GameViewController.swift */,
+				A2FC80C12648448E00E93AB1 /* ForestScene.swift */,
+				A2FC80C62648532100E93AB1 /* Player.swift */,
+				A211059D2647A1CE008AF0B7 /* Title.sks */,
+				A21106902647D411008AF0B7 /* Forest.sks */,
+				A2C19CD22651113900DED056 /* Animations */,
+				A21106892647C9C4008AF0B7 /* Misc */,
+				A21105AB2647A60C008AF0B7 /* Extensions */,
+			);
+			path = "Noble Sword";
+			sourceTree = "<group>";
+		};
+		A2F684C7264791C5006DF83B /* Noble SwordTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F684C8264791C5006DF83B /* Noble_SwordTests.swift */,
+				A2F684CA264791C5006DF83B /* Info.plist */,
+			);
+			path = "Noble SwordTests";
+			sourceTree = "<group>";
+		};
+		A2F684D2264791C5006DF83B /* Noble SwordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F684D3264791C5006DF83B /* Noble_SwordUITests.swift */,
+				A2F684D5264791C5006DF83B /* Info.plist */,
+			);
+			path = "Noble SwordUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F684B0264791C4006DF83B /* Noble Sword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F684D8264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble Sword" */;
+			buildPhases = (
+				A2F684AD264791C4006DF83B /* Sources */,
+				A2F684AE264791C4006DF83B /* Frameworks */,
+				A2F684AF264791C4006DF83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noble Sword";
+			productName = "Noble Sword";
+			productReference = A2F684B1264791C4006DF83B /* Noble Sword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2F684C3264791C5006DF83B /* Noble SwordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F684DB264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble SwordTests" */;
+			buildPhases = (
+				A2F684C0264791C5006DF83B /* Sources */,
+				A2F684C1264791C5006DF83B /* Frameworks */,
+				A2F684C2264791C5006DF83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F684C6264791C5006DF83B /* PBXTargetDependency */,
+			);
+			name = "Noble SwordTests";
+			productName = "Noble SwordTests";
+			productReference = A2F684C4264791C5006DF83B /* Noble SwordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2F684CE264791C5006DF83B /* Noble SwordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F684DE264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble SwordUITests" */;
+			buildPhases = (
+				A2F684CB264791C5006DF83B /* Sources */,
+				A2F684CC264791C5006DF83B /* Frameworks */,
+				A2F684CD264791C5006DF83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F684D1264791C5006DF83B /* PBXTargetDependency */,
+			);
+			name = "Noble SwordUITests";
+			productName = "Noble SwordUITests";
+			productReference = A2F684CF264791C5006DF83B /* Noble SwordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F684A9264791C4006DF83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A2F684B0264791C4006DF83B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A2F684C3264791C5006DF83B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A2F684B0264791C4006DF83B;
+					};
+					A2F684CE264791C5006DF83B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A2F684B0264791C4006DF83B;
+					};
+				};
+			};
+			buildConfigurationList = A2F684AC264791C4006DF83B /* Build configuration list for PBXProject "Noble Sword" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F684A8264791C4006DF83B;
+			productRefGroup = A2F684B2264791C4006DF83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F684B0264791C4006DF83B /* Noble Sword */,
+				A2F684C3264791C5006DF83B /* Noble SwordTests */,
+				A2F684CE264791C5006DF83B /* Noble SwordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F684AF264791C4006DF83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21106702647B7F0008AF0B7 /* LaunchScreen.storyboard in Resources */,
+				A205D849265118B5007A1828 /* Actions.sks in Resources */,
+				A2F684BE264791C5006DF83B /* Assets.xcassets in Resources */,
+				A21106912647D411008AF0B7 /* Forest.sks in Resources */,
+				A21106852647C953008AF0B7 /* Minecraft.ttf in Resources */,
+				A211059E2647A1CE008AF0B7 /* Title.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684C2264791C5006DF83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684CD264791C5006DF83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F684AD264791C4006DF83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C19CD9265111E000DED056 /* Ex+SKAction.swift in Sources */,
+				A21105AD2647A639008AF0B7 /* CGRect+Ext.swift in Sources */,
+				A2FC80C22648448E00E93AB1 /* ForestScene.swift in Sources */,
+				A2F684B9264791C4006DF83B /* GameViewController.swift in Sources */,
+				A2FC80C72648532100E93AB1 /* Player.swift in Sources */,
+				A2F684B5264791C4006DF83B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684C0264791C5006DF83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F684C9264791C5006DF83B /* Noble_SwordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F684CB264791C5006DF83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F684D4264791C5006DF83B /* Noble_SwordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F684C6264791C5006DF83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F684B0264791C4006DF83B /* Noble Sword */;
+			targetProxy = A2F684C5264791C5006DF83B /* PBXContainerItemProxy */;
+		};
+		A2F684D1264791C5006DF83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F684B0264791C4006DF83B /* Noble Sword */;
+			targetProxy = A2F684D0264791C5006DF83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2F684D6264791C5006DF83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2F684D7264791C5006DF83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F684D9264791C5006DF83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZCXMTT3V9;
+				INFOPLIST_FILE = "Noble Sword/Misc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-Sword";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2F684DA264791C5006DF83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZCXMTT3V9;
+				INFOPLIST_FILE = "Noble Sword/Misc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-Sword";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A2F684DC264791C5006DF83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Noble SwordTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-SwordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noble Sword.app/Noble Sword";
+			};
+			name = Debug;
+		};
+		A2F684DD264791C5006DF83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Noble SwordTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-SwordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noble Sword.app/Noble Sword";
+			};
+			name = Release;
+		};
+		A2F684DF264791C5006DF83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Noble SwordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-SwordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noble Sword";
+			};
+			name = Debug;
+		};
+		A2F684E0264791C5006DF83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Noble SwordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EightFoldGames.Noble-SwordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noble Sword";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F684AC264791C4006DF83B /* Build configuration list for PBXProject "Noble Sword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F684D6264791C5006DF83B /* Debug */,
+				A2F684D7264791C5006DF83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F684D8264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble Sword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F684D9264791C5006DF83B /* Debug */,
+				A2F684DA264791C5006DF83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F684DB264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble SwordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F684DC264791C5006DF83B /* Debug */,
+				A2F684DD264791C5006DF83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F684DE264791C5006DF83B /* Build configuration list for PBXNativeTarget "Noble SwordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F684DF264791C5006DF83B /* Debug */,
+				A2F684E0264791C5006DF83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F684A9264791C4006DF83B /* Project object */;
+}
